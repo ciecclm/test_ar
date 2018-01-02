@@ -14,6 +14,8 @@
 		E595D5F51FEE3AA0007379BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E595D5F31FEE3AA0007379BB /* LaunchScreen.storyboard */; };
 		E595D6001FEE3AA0007379BB /* test_arTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595D5FF1FEE3AA0007379BB /* test_arTests.swift */; };
 		E595D60B1FEE3AA0007379BB /* test_arUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595D60A1FEE3AA0007379BB /* test_arUITests.swift */; };
+		E595D61C1FEE4844007379BB /* SolarSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595D61B1FEE4844007379BB /* SolarSystemViewController.swift */; };
+		E5D36F061FF206FD00CDF75D /* solar.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D36F051FF206FD00CDF75D /* solar.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E595D6061FEE3AA0007379BB /* test_arUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_arUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E595D60A1FEE3AA0007379BB /* test_arUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_arUITests.swift; sourceTree = "<group>"; };
 		E595D60C1FEE3AA0007379BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E595D61B1FEE4844007379BB /* SolarSystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemViewController.swift; sourceTree = "<group>"; };
+		E5D36F051FF206FD00CDF75D /* solar.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = solar.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E595D5F11FEE3AA0007379BB /* Assets.xcassets */,
 				E595D5F31FEE3AA0007379BB /* LaunchScreen.storyboard */,
 				E595D5F61FEE3AA0007379BB /* Info.plist */,
+				E595D61B1FEE4844007379BB /* SolarSystemViewController.swift */,
+				E5D36F051FF206FD00CDF75D /* solar.scnassets */,
 			);
 			path = test_ar;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				E595D5F51FEE3AA0007379BB /* LaunchScreen.storyboard in Resources */,
 				E595D5F21FEE3AA0007379BB /* Assets.xcassets in Resources */,
 				E595D5F01FEE3AA0007379BB /* Main.storyboard in Resources */,
+				E5D36F061FF206FD00CDF75D /* solar.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E595D5ED1FEE3AA0007379BB /* ViewController.swift in Sources */,
+				E595D61C1FEE4844007379BB /* SolarSystemViewController.swift in Sources */,
 				E595D5EB1FEE3AA0007379BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
